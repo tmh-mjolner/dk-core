@@ -1,9 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="341251" />
-  <meta>
-    <versionId value="1" />
-    <lastUpdated value="2017-11-17T13:02:26.24-05:00" />
-  </meta>
+  <id value="cpr" />
+  <url value="http://hl7.org/fhir/dk/core/NamingSystem/dk-core-cpr"/>
   <name value="Danish civil registration system - CPR" />
   <status value="active" />
   <kind value="identifier" />
@@ -13,16 +10,17 @@
     <name value="Thor Schliemann" />
   </contact>
   <responsible value="CPR-kontoret, Økonomi- og Indenrigsministeriets departement" />
-  <type>
+   <type>
     <coding>
-      <system value="http://hl7.org/fhir/identifier-type" />
-      <code value="SB" />
-      <display value="Social Beneficiary Identifier" />
+      <system value="http://hl7.org/fhir/identifier-type"/>
+      <code value="NNDNK"/>
+      <display
+               value="National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code"/>
     </coding>
   </type>
   <description value="The Danish civil registration system (&quot;CPR&quot;) encompasses basic personal data about anyone with a civil registration number. A civil registration number shall be allocated to anyone who: 1) is registered in the national register in Denmark on the grounds of birth or relocation from abroad; 2) is included under Arbejdsmarkedets TillægsPension (ATP); 3) according to the tax authorities, is required to have a civil registration number for the purpose of tax processing in Denmark." />
   <uniqueId>
-    <type value="oid" />
+    <type value="oid" />  
     <value value="1.2.208.176.1.2" />
   </uniqueId>
   <uniqueId>
