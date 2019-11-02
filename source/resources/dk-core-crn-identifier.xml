@@ -61,7 +61,7 @@
         <requirements value="Requirement of danish civil registration numbers" />
         <severity value="error" />
         <human value="Requirement of danish civil registration numbers" />
-        <expression value="value.matches('^[0-9]{10}$')" />
+        <expression value="matches('^[0-9]{10}$')" />
         <source value="Identifier" />
       </constraint>
       <mustSupport value="false" />
