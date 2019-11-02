@@ -86,6 +86,16 @@
         <profile value="http://hl7.nordic/fhir/StructureDefinition/nordic-middlename" />
       </type>
     </element>
+    <element id="Patient.name.extension:middleName.value[x]">
+      <path value="Patient.name.extension.value[x]" />
+      <slicing>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Patient.name.family">
+      <path value="Patient.name.family" />
+      <min value="1" />
+    </element>
     <element id="Patient.address.extension">
       <path value="Patient.address.extension" />
       <slicing>
