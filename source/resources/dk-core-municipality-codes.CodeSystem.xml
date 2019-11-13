@@ -807,4 +807,44 @@
       <value value="Vejle"/>
     </designation>
   </concept>
+  <concept>
+    <code value="0955"/>
+    <display value="Kujalleq"/>
+    <designation>
+      <language value="da"/>
+      <value value="Kujalleq"/>
+    </designation>
+  </concept>
+    <concept>
+    <code value="0956"/>
+    <display value="Sermersooq"/>
+    <designation>
+      <language value="da"/>
+      <value value="Sermersooq"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0957"/>
+    <display value="Qeqqata"/>
+    <designation>
+      <language value="da"/>
+      <value value="Qeqqata"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0959"/>
+    <display value="Qeqertalik"/>
+    <designation>
+      <language value="da"/>
+      <value value="Qeqertalik"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0960"/>
+    <display value="Avannaata"/>
+    <designation>
+      <language value="da"/>
+      <value value="Avannaata"/>
+    </designation>
+  </concept>
 </CodeSystem>
