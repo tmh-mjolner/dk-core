@@ -3,3 +3,5 @@ This repo hosts a set of profiles that are intended to be reviewed and refactore
 
 # Meetings
 Meetings are every odd week on mondays 15:00 - 16:00, be sharp or not. Meetings are kindly hosted by MedCom at hl7@rooms.medcom.dk. Either use something like Pexip/Skype or use your browser and point it at https://rooms.medcom.dk/
+
+Don't submit a PIN code, as it is not needed.
