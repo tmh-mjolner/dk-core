@@ -5,3 +5,6 @@ This repo hosts a set of profiles that are intended to be reviewed and refactore
 Meetings are every odd week on mondays 15:00 - 16:00, be sharp or not. Meetings are kindly hosted by MedCom at hl7@rooms.medcom.dk. Either use something like Pexip/Skype or use your browser and point it at https://rooms.medcom.dk/
 
 Don't submit a PIN code, as it is not needed.
+
+# Governance
+Artifacts found in this repository should be treated as unstable, under continous evaluation, as propsal and not part of the danish national standards unless stated explicitly. Any artifacts that have been found mature enough are submitted to HL7 DK for further ratification. The process that follows after such ratification is yet to be decided.
