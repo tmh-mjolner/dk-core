@@ -1,10 +1,5 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="municipality-codes"/>
-  <text>
-    <status value="generated"/>
-    <div xmlns="http://www.w3.org/1999/xhtml"><h2>MunicipalityCodes</h2><div><p>Municipality codes used in Denmark</p>
-</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CodeSystem-ehealth-municipality-code.html"><code>http://danmarksadresser.dk/kommunekode</code></a></li></ul></div>
-  </text>
   <url value="http://hl7.org/fhir/dk/core/ValueSet/dk-core-MunicipalityCodes"/>
   <version value="latest"/>
   <name value="MunicipalityCodes"/>
@@ -16,6 +11,9 @@
   <compose>
     <include>
       <system value="http://danmarksadresser.dk/kommunekode"/>
+    </include>
+    <include>
+      <system value="http://cpr.dk/kommunekode/greenland"/>
     </include>
   </compose>
 </ValueSet>
