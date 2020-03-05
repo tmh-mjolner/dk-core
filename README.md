@@ -11,3 +11,6 @@ Artifacts found in this repository should be treated as unstable, under continou
 
 # TL;DR
 ```every odd week on mondays 15:00 - 16:00 @```https://rooms.medcom.dk/webapp/conference/hl7@rooms.medcom.dk - NO PIN!
+
+# Webhooks
+Webhook has been set up as specified on https://github.com/FHIR/auto-ig-builder
