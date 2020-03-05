@@ -1,0 +1,10 @@
+{
+    "resourceType": "ImplementationGuide",
+    "id": "dk.fhir.ig.dk-core",
+    "name": "DK Core",
+    "status": "draft",
+    "experimental": true,
+    "date": "2020-03-04T15:46:50+00:00",
+    "publisher": "HL7 DK",
+    "fhirVersion": "4.0.0"
+}
