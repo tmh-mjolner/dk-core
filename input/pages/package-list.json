@@ -2,7 +2,7 @@
   "package-id": "dk.fhir.ig.dk-core",
   "title": "DK Core (R4)",
   "introduction": "Core FHIR profiles for Denmark in development by the HL7 Danish FHIR SIG workgroup",
-  "canonical": "http://hl7.dk/fhir/ig/ch-core",
+  "canonical": "http://hl7.dk/fhir/ig/dk-core-r4",
   "list": [
     {
       "version": "dev",
@@ -15,7 +15,7 @@
       "version": "0.1.0",
       "date": "2020-02-14",
       "desc": "HL7 Denmark STU Ballot",
-      "path": "http://hl7.dk/fhir/ig/ch-core",
+      "path": "http://hl7.dk/fhir/ig/dk-core-r4",
       "status": "trial-use",
       "sequence" : "STU",
       "fhirVersion": "4.0.1",

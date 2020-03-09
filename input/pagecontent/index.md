@@ -9,17 +9,16 @@ This document is a working specification that is expected to be implemented and 
 
 ### Scope
 
-This document presents Swiss use concepts defined via FHIR processable artefacts:
+This document presents Danish use concepts defined via FHIR processable artefacts:
 
-* [Profiles](profiles.html) - are useful constraints of core FHIR resources and datatype for Swiss use
-* [Extensions](extensions.html) - are FHIR extensions that are added for local use, covering needed Swiss concepts
-* [Terminologies](terminology.html) - are defined or referenced code systems and value sets for Swiss context
+* [Profiles](profiles.html) - are useful constraints of core FHIR resources and datatype for Danish use
+* [Extensions](extensions.html) - are FHIR extensions that are added for local use, covering needed Danish concepts
+* [Terminologies](terminology.html) - are defined or referenced code systems and value sets for Danish context
 
 ### Governance
 
 FHIR profiles are managed under HL7 Denmark in the HL7 Danish FHIR working group:
 
-* [HL7 Switzerland Technical Comitee](https://www.hl7.ch/technisches-komitee/)
 * [Source](https://github.com/hl7dk/dk-core-r4)
 * [Wiki](https://github.com/hl7dk/dk-core-r4)
 
