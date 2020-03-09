@@ -24,3 +24,5 @@ you can build the Implementation Guide (IG) with the [ig publisher](https://conf
 wget https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.publisher.jar -O org.hl7.fhir.igpublisher.jar
 java -Xms3550m -Xmx3550m -jar org.hl7.fhir.igpublisher.jar -ig ig.ini
 ```
+
+Current version of the IG is located at http://build.fhir.org/ig/hl7dk/dk-core-r4/
