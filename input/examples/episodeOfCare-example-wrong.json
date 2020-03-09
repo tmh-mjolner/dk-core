@@ -5,7 +5,7 @@
             "http://hl7.dk/fhir/StructureDefinition/dk-core-episodeOfCare"
         ]
     },
-    "id": "episodeOfCare-example",
+    "id": "episodeOfCare-example-wrong",
     "identifier": [
         {
             "system": "https://www.esundhed.dk/Registre/Landspatientsregisteret",

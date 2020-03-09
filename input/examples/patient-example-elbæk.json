@@ -5,6 +5,7 @@
             "http://hl7.org/fhir/dk/core/StructureDefinition/dk-core-patient"
         ]
     },
+    "id": "uffe",
     "name": [
         {
             "use": "official",
