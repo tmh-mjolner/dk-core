@@ -1,62 +1,88 @@
-<ImplementationGuide xmlns='http://hl7.org/fhir'>
-  <license value='CC-BY-SA-4.0'/>
-  <definition>
-    <parameter>
-      <value value='true'/>
-      <code value='generate-xml'/>
-    </parameter>
-    <parameter>
-      <value value='false'/>
-      <code value='generate-turtle'/>
-    </parameter>
-    <parameter>
-      <value value='CI build'/>
-      <code value='releaselabel'/>
-    </parameter>
-    <parameter>
-      <value value='input/pages'/>
-      <code value='path-pages'/>
-    </parameter>
-    <parameter>
-      <value value='2020+'/>
-      <code value='copyrightyear'/>
-    </parameter>
-    <parameter>
-      <value value='urn:oid:2.16.840.1.113883.6.316'/>
-      <code value='special-url'/>
-    </parameter>
-    <parameter>
-      <value value='urn:oid:2.16.756.5.30.1.127.3.10.10'/>
-      <code value='special-url'/>
-    </parameter>
-    <grouping>
-      <name value='DK:Core'/>
-    </grouping>
-  </definition>
-  <title value='DK Core (R4)'/>
-  <packageId value='dk.fhir.ig.dk-core'/>
-  <id value='dk.fhir.ig.dk-core'/>
-  <url value='http://hl7.dk/ig/dk-core/ImplementationGuide/dk.fhir.ig.dk-core'/>
-  <version value='0.1.0'/>
-  <name value='DK_Core'/>
-  <status value='active'/>
-  <experimental value='false'/>
-  <date value='2020-02-14'/>
-  <publisher value='HL7 Denmark'/>
-  <contact>
-    <name value='HL7 Denmark'/>
-    <telecom>
-      <system value='url'/>
-      <value value='https://www.hl7.dk/'/>
-    </telecom>
-  </contact>
-  <description value='Implementationguide DK-Core'/>
-  <jurisdiction>
-    <coding>
-      <system value='urn:iso:std:iso:3166'/>
-      <code value='DK'/>
-    </coding>
-  </jurisdiction>
-  <copyright value='CC-BY-SA-4.0'/>
-  <fhirVersion value='4.0.1'/>
+<ImplementationGuide
+    xmlns='http://hl7.org/fhir'>
+    <license value='CC-BY-SA-4.0'/>
+    <definition>
+        <page>
+            <nameUrl value="toc.html"/>
+            <title value="Table of Contents"/>
+            <generation value="html"/>
+            <page>
+                <nameUrl value="index.html"/>
+                <title value="Home"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="profiles.html"/>
+                <title value="Profiles"/>
+                <generation value="html"/>
+            </page>
+            <page>
+                <nameUrl value="extensions.html"/>
+                <title value="Extensions"/>
+                <generation value="html"/>
+            </page>
+            <page>
+                <nameUrl value="terminology.html"/>
+                <title value="Terminology"/>
+                <generation value="html"/>
+            </page>
+        </page>
+        <parameter>
+            <value value='true'/>
+            <code value='generate-xml'/>
+        </parameter>
+        <parameter>
+            <value value='false'/>
+            <code value='generate-turtle'/>
+        </parameter>
+        <parameter>
+            <value value='CI build'/>
+            <code value='releaselabel'/>
+        </parameter>
+        <parameter>
+            <value value='input/pages'/>
+            <code value='path-pages'/>
+        </parameter>
+        <parameter>
+            <value value='2020+'/>
+            <code value='copyrightyear'/>
+        </parameter>
+        <parameter>
+            <value value='urn:oid:2.16.840.1.113883.6.316'/>
+            <code value='special-url'/>
+        </parameter>
+        <parameter>
+            <value value='urn:oid:2.16.756.5.30.1.127.3.10.10'/>
+            <code value='special-url'/>
+        </parameter>
+        <grouping>
+            <name value='DK:Core'/>
+        </grouping>
+    </definition>
+    <title value='DK Core (R4)'/>
+    <packageId value='dk.fhir.ig.dk-core'/>
+    <id value='dk.fhir.ig.dk-core'/>
+    <url value='http://hl7.dk/ig/dk-core/ImplementationGuide/dk.fhir.ig.dk-core'/>
+    <version value='0.1.0'/>
+    <name value='DK_Core'/>
+    <status value='active'/>
+    <experimental value='false'/>
+    <date value='2020-02-14'/>
+    <publisher value='HL7 Denmark'/>
+    <contact>
+        <name value='HL7 Denmark'/>
+        <telecom>
+            <system value='url'/>
+            <value value='https://www.hl7.dk/'/>
+        </telecom>
+    </contact>
+    <description value='Implementationguide DK-Core'/>
+    <jurisdiction>
+        <coding>
+            <system value='urn:iso:std:iso:3166'/>
+            <code value='DK'/>
+        </coding>
+    </jurisdiction>
+    <copyright value='CC-BY-SA-4.0'/>
+    <fhirVersion value='4.0.1'/>
 </ImplementationGuide>

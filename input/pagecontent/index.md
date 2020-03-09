@@ -1,0 +1,31 @@
+### Introduction
+This implementation guide is provided to support the use of FHIR<sup>&reg;&copy;</sup> in a Danish context.
+
+This document is a working specification that is expected to be implemented and tested by FHIR<sup>&reg;&copy;</sup> system producers to enable feedback to improve the content of this guide. With this first Standard for Trial Use ballot version we are looking for feedback if the following goals are met:  
+- provide guidance on core resources for identifiers, code system, value sets and naming systems in a Danish specific context.
+- define extensions that are necessary for local use covering needed Danish concepts
+
+**Note**: This implementation guide is not (yet) a FHIR API specification, this will be a goal for the next iteration.
+
+### Scope
+
+This document presents Swiss use concepts defined via FHIR processable artefacts:
+
+* [Profiles](profiles.html) - are useful constraints of core FHIR resources and datatype for Swiss use
+* [Extensions](extensions.html) - are FHIR extensions that are added for local use, covering needed Swiss concepts
+* [Terminologies](terminology.html) - are defined or referenced code systems and value sets for Swiss context
+
+### Governance
+
+FHIR profiles are managed under HL7 Denmark in the HL7 Danish FHIR working group:
+
+* [HL7 Switzerland Technical Comitee](https://www.hl7.ch/technisches-komitee/)
+* [Source](https://github.com/hl7dk/dk-core-r4)
+* [Wiki](https://github.com/hl7dk/dk-core-r4)
+
+
+### Collaboration
+This guide is the product of collaborative work undertaken with participants from:
+
+* [Danish FHIR Implementers Community]
+* [HL7 Denmark](https://www.hl7.dk)
