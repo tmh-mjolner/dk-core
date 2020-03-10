@@ -78,6 +78,13 @@
         </resource>
         <resource>
             <reference>
+                <reference value="Patient/283"/></reference>
+            <name value="Example of valid patient with full address" />
+            <description value="Example of valid patient with full address"/>
+            <exampleCanonical value="http://hl7.org/fhir/dk/core/StructureDefinition/dk-core-patient"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="Patient/bubber-wrong"/></reference>
             <name value="Example of patient with INVALID SOR identifier for general practitioner"/>
             <description value="Example of patient with INVALID SOR identifier for general practitioner. SOR Identifiers have there own set of rules. Only the length of the string is verified in the profile"/>
