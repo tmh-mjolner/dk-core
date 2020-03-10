@@ -66,36 +66,42 @@
             <reference>
                 <reference value="Patient/uffe"/></reference>
             <name value="Example of valid patient with danish marital status"/>
+            <description value="Example of valid patient with danish marital status"/>
             <exampleCanonical value="http://hl7.org/fhir/dk/core/StructureDefinition/dk-core-patient"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Patient/bubber"/></reference>
             <name value="Example of valid patient with multiple names"/>
+            <description value="Example of valid patient with multiple names"/>
             <exampleCanonical value="http://hl7.org/fhir/dk/core/StructureDefinition/dk-core-patient"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Patient/bubber-wrong"/></reference>
             <name value="Example of patient with INVALID SOR identifier for general practitioner"/>
+            <description value="Example of patient with INVALID SOR identifier for general practitioner. SOR Identifiers have there own set of rules. Only the length of the string is verified in the profile"/>
             <exampleCanonical value="http://hl7.org/fhir/dk/core/StructureDefinition/dk-core-patient"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Patient/ukendt"/></reference>
             <name value="Example of valid patient unknown identifier registry"/>
+            <description value="Example of valid patient unknown identifier registry. The patient is a 'John Doe' with an Identifier from an unofficial register"/>
             <exampleCanonical value="http://hl7.org/fhir/dk/core/StructureDefinition/dk-core-patient"/>
         </resource>
         <resource>
             <reference>
                 <reference value="EpisodeOfCare/episodeOfCare-example"/></reference>
             <name value="Example of valid use of a LPR3 identifier"/>
+            <description value="Example of valid use of a LPR3 identifier"/>
             <exampleCanonical value="http://hl7.dk/fhir/StructureDefinition/dk-core-episodeOfCare"/>
         </resource>
         <resource>
             <reference>
                 <reference value="EpisodeOfCare/episodeOfCare-example-wrong"/></reference>
             <name value="Example of INVALID use of a LPR3 identifier (ID does not conform to a UUID)"/>
+            <description value="Example of INVALID use of a LPR3 identifier (ID does not conform to a UUID). UUID's must conform to the proper regex"/>
             <exampleCanonical value="http://hl7.dk/fhir/StructureDefinition/dk-core-episodeOfCare"/>
         </resource>
     </definition>
