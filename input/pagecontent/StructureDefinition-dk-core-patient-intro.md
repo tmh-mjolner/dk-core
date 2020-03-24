@@ -1,0 +1,2 @@
+### Introduction
+The Danish Core Patient profile is intended to encapsulate the most common and basic data model of patients in danish healthcare systems covering both primary sector (GP's), secondary sector (specialty doctors and hospitals) and municipality cases. As such the profile should be usable in most danish contexts.

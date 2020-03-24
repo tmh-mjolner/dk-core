@@ -5,7 +5,7 @@
     <status value="empty" />
     <div xmlns="http://www.w3.org/1999/xhtml" />
   </text>
-  <url value="http://hl7.org/fhir/dk/core/StructureDefinition/dk-core-crn-identifier" />
+  <url value="http://hl7.dk/fhir/core/StructureDefinition/dk-core-crn-identifier" />
   <version value="latest" />
   <name value="DkCoreCrnIdentifier" />
   <title value="Danish Core Civil Registration Number Extension" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="dk-core-municipalityCodes" />
-  <url value="http://hl7.org/fhir/dk/core/StructureDefinition/dk-core-municipalityCodes" />
+  <url value="http://hl7.dk/fhir/core/StructureDefinition/dk-core-municipalityCodes" />
   <name value="MunicipalityCodes" />
   <title value="Danish Core Municipality codes" />
   <status value="draft" />
@@ -27,7 +27,7 @@
   <differential>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.org/fhir/dk/core/StructureDefinition/dk-core-municipalityCodes" />
+      <fixedUri value="http://hl7.dk/fhir/core/StructureDefinition/dk-core-municipalityCodes" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
@@ -39,7 +39,7 @@
       <path value="Extension.value[x].coding" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/dk/core/ValueSet/dk-core-MunicipalityCodes" />
+        <valueSet value="http://hl7.dk/fhir/core/ValueSet/dk-core-MunicipalityCodes" />
       </binding>
     </element>
   </differential>

@@ -2,7 +2,7 @@
     "resourceType": "Patient",
     "meta": {
         "profile": [
-            "http://hl7.org/fhir/dk/core/StructureDefinition/dk-core-patient"
+            "http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient"
         ]
     },
     "id": "uffe",
