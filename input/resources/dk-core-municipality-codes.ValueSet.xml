@@ -1,5 +1,5 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="municipality-codes"/>
+  <id value="dk-core-MunicipalityCodes"/>
   <url value="http://hl7.dk/fhir/core/ValueSet/dk-core-MunicipalityCodes"/>
   <version value="latest"/>
   <name value="MunicipalityCodes"/>
@@ -10,10 +10,10 @@
   <description value="Municipality codes used in Denmark"/>
   <compose>
     <include>
-      <system value="http://danmarksadresser.dk/kommunekode"/>
+      <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
     </include>
     <include>
-      <system value="http://cpr.dk/kommunekode/greenland"/>
+      <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes-greenland"/>
     </include>
   </compose>
 </ValueSet>

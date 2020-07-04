@@ -1,6 +1,6 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="dk-core-municipality-codes-greenland"/>
-  <url value="http://cpr.dk/kommunekode/greenland"/>
+  <url value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes-greenland"/>
   <version value="latest"/>
   <name value="GreenlandMunicipalityCodes"/>
   <status value="active"/>

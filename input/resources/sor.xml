@@ -21,7 +21,7 @@
                value="The Health Service&#39;s Organizational Register was developed in the National Board of Health in 2006-2007 in cooperation with the regions and MedCom"/>
   <type>
     <coding>
-      <system value="http://hl7.org/fhir/v2/0203"/>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
       <code value="PRN"/>
       <display value="Provider number"/>
     </coding>

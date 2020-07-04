@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="dk-core-municipality-codes" />
-  <url value="http://danmarksadresser.dk/kommunekode" />
+  <url value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes" />
   <version value="latest" />
   <name value="MunicipalityCodes" />
   <status value="active" />

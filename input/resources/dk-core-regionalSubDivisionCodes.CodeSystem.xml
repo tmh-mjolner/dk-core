@@ -1,18 +1,18 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
-  <id value="regional-subdivision-codes"/>
+  <id value="dk-core-regional-subdivision-codes"/>
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml"><h2>Regional subdivision codes</h2><div><p>Subdivision codes (Regional codes) used in Denmark</p>
 </div><p>This code system http://ehealth.sundhed.dk/cs/regional-subdivision-codes defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">DK-84<a name="regional-subdivision-codes-DK-84"> </a></td><td>Capital Region of Denmark</td><td/></tr><tr><td style="white-space:nowrap">DK-82<a name="regional-subdivision-codes-DK-82"> </a></td><td>Central Denmark Region</td><td/></tr><tr><td style="white-space:nowrap">DK-81<a name="regional-subdivision-codes-DK-81"> </a></td><td>Nord Denmark Region</td><td/></tr><tr><td style="white-space:nowrap">DK-85<a name="regional-subdivision-codes-DK-85"> </a></td><td>Region Zealand</td><td/></tr><tr><td style="white-space:nowrap">DK-83<a name="regional-subdivision-codes-DK-83"> </a></td><td>Region of Southern Denmark</td><td/></tr></table></div>
   </text>
-  <url value="https://www.iso.org/obp/ui/#iso:code:3166:DK"/>
+  <url value="http://hl7.dk/fhir/core/CodeSystem/dk-core-regional-subdivision-codes"/>
   <version value="latest"/>
   <name value="Regional subdivision codes"/>
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2019-02-02T00:00:00+00:00"/>
   <publisher value="ehealth.sundhed.dk"/>
-  <description value="Subdivision codes (Regional codes) used in Denmark"/>
+  <description value="Subdivision codes (Regional codes) used in Denmark as found on https://www.iso.org/obp/ui/#iso:code:3166:DK"/>
   <content value="complete"/>
   <concept>
     <code value="DK-84"/>

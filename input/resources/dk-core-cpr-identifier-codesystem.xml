@@ -1,5 +1,5 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
-  <id value="dk-cpr-identifier-codesystem"/>
+  <id value="dk-core-cpr-identifier-system"/>
   <url value="http://hl7.dk/fhir/core/CodeSystem/dk-core-cpr-identifier-system"/>
   <version value="latest"/>
   <status value="active"/>
