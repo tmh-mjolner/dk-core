@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="dk-core-crn-identifier" />
+  <id value="dk-core-cpr-identifier" />
   <text>
     <status value="empty" />
     <div xmlns="http://www.w3.org/1999/xhtml" />
   </text>
-  <url value="http://hl7.dk/fhir/core/StructureDefinition/dk-core-crn-identifier" />
+  <url value="http://hl7.dk/fhir/core/StructureDefinition/dk-core-cpr-identifier" />
   <version value="latest" />
-  <name value="DkCoreCrnIdentifier" />
-  <title value="Danish Core Civil Registration Number Extension" />
+  <name value="DkCoreCprIdentifier" />
+  <title value="Danish Core Central Person Register Extension" />
   <status value="draft" />
   <date value="2019-11-02" />
   <publisher value="ehealth.sundhed.dk" />
-  <description value="This structure holds the danish *civil registration number* (CRN) identifier" />
-  <fhirVersion value="4.0.0" />
+  <description value="This structure holds the danish *Central Person Register* (CPR) identifier" />
+  <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
   <type value="Identifier" />
@@ -37,7 +37,7 @@
       <min value="1" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://hl7.org/fhir/ValueSet/dk-crn-identifier-system" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/dk-cpr-identifier-system" />
       </binding>
     </element>
     <element id="Identifier.value">
@@ -45,7 +45,7 @@
       <min value="1" />
       <maxLength value="10" />
       <constraint>
-        <key value="crn" />
+        <key value="cpr" />
         <requirements value="Requirement of danish civil registration numbers" />
         <severity value="error" />
         <human value="Requirement of danish civil registration numbers" />
