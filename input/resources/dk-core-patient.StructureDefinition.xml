@@ -35,6 +35,7 @@
         <rules value="open" />
       </slicing>
       <min value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Patient.identifier:cpr">
       <path value="Patient.identifier" />
@@ -56,6 +57,7 @@
         <rules value="open" />
       </slicing>
       <min value="1" />
+      <mustSupport value="true" />
     </element>
     <element id="Patient.name:official">
       <path value="Patient.name" />
@@ -100,12 +102,9 @@
         <profile value="http://hl7.dk/fhir/core/StructureDefinition/dk-core-RegionalSubDivisionCodes" />
       </type>
     </element>
-    <element id="Patient.maritalStatus.coding.code">
-      <path value="Patient.maritalStatus.coding.code" />
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="http://hl7.dk/fhir/core/ValueSet/dk-marital-status" />
-      </binding>
+    <element id="Patient.maritalStatus.coding.system">
+      <path value="Patient.maritalStatus.coding.system" />
+      <fixedUri value="http://hl7.dk/fhir/core/CodeSystem/dk-marital-status" />
     </element>
     <element id="Patient.generalPractitioner">
       <path value="Patient.generalPractitioner" />
