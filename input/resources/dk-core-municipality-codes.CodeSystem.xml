@@ -8,7 +8,7 @@
   <experimental value="false" />
   <date value="2019-01-29T00:00:00+00:00" />
   <publisher value="ehealth.sundhed.dk" />
-  <description value="Municipality codes" />
+  <description value="Municipality codes as defined by https://danmarksadresser.dk/adressedata/kodelister/kommunekodeliste/ and https://sundhedsdatastyrelsen.dk/-/media/sds/filer/rammer-og-retningslinjer/patientregistrering/relaterede/kommuneklassifikation.pdf" />
   <caseSensitive value="true" />
   <content value="complete" />
   <concept>
